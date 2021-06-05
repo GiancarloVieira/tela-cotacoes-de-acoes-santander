@@ -32,4 +32,16 @@ public class StockService {
         repository.save(stock);
         return mapper.toDto(stock);
     }
+
+    @Transactional
+    public StockDTO update(StockDTO dto) {
+        Optional <Stock> optionalStock = repository.findByStockUpdate(dto.getName(), dto.getDate(), dto.getId());
+        if (optionalStock.isPresent()){
+            throw new BusinessException(MessageUtils.STOCK_AlREADY_EXISTS);
+        }
+
+        Stock stock = mapper.toEntity(dto);
+        repository.save(stock);
+        return mapper.toDto(stock);
+    }
 }
