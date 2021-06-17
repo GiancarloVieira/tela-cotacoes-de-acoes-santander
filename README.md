@@ -5,5 +5,16 @@ Aluas de aprendizagem gratuitas oferecidas pelas instituições.
 
 Estão reunidas aqui as pastas para Angular e para o Java com IntelliJ.
 
-# URL
+# URL da Tela de Cotação Pornto
+https://giancarlocastro.github.io/bootcamp-santander-dio/
+Obs.: A pagina foi colocada em um segudno repositório, pois, o Angular CLI não consegue faer deploy para repositótio criados a muito tempo, como é o case deste.
+
+## URL Front-End
 http://bootcamp-dio-santander-gian.herokuapp.com/bootcamp/swagger-ui.html
+
+## Repositório Front-End
+https://github.com/GiancarloVieira/bootcamp-santander
+
+## Repositório Back-End
+https://github.com/GiancarloVieira/homebroker
+
